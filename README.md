@@ -1,1 +1,4 @@
-This is a work in progress, everything here probably doesn't work but c'est la vie
+- The `homefiles` script will install my `.bashrc` configurations
+- The `vimconfig` script will install my vim plugins
+- The `sysinstall` contains a script to install Anaconda
+  - This script was made in part by ChatGPT, with minor tweaks to it made by me. The prompt used to generate it was: `Create a bash script that: checks if the user running the script is root, checks if the apt package manager is installed,  checks if Anaconda and any of it's dependencies are installed, then installs Anaconda and it's dependencies`. The other two were made by me.
